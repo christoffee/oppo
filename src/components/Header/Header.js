@@ -22,12 +22,12 @@ class Header extends Component {
         <div className={s.container}>
           <Navigation className={s.nav} />
           <a className={s.brand} href="/" onClick={Link.handleClick}>
-            <img src={require('./logo-small.png')} width="38" height="38" alt="React" />
-            <span className={s.brandTxt}>Your Company</span>
+            <img src={require('./christoffee.png')} width="38" height="24" alt="React" />
+            <span className={s.brandTxt}>christoffee</span>
           </a>
           <div className={s.banner}>
-            <h1 className={s.bannerTitle}>React</h1>
-            <p className={s.bannerDesc}>Complex web apps made easy</p>
+            <h1 className={s.bannerTitle}>oppo</h1>
+            <p className={s.bannerDesc}>software for doctors and patients</p>
           </div>
         </div>
       </div>
